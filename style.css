@@ -1,0 +1,65 @@
+@import url("https://fonts.googleapis.com/css2?family=Arima:wght@100..700&display=swap");
+* {
+  margin: 0;
+  padding: 0; }
+
+.books__header {
+  display: flex;
+  flex-direction: row;
+  padding: .625rem 3.125rem;
+  background-color: #FEAC56;
+  justify-content: space-between;
+  align-items: center;
+  font-family: "Arima", system-ui; }
+  .books__header a {
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+    font-size: 20px; }
+    .books__header a:hover {
+      text-decoration: underline; }
+
+.about {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Arima", system-ui;
+  margin: 1.25rem; }
+  .about h2 {
+    font-size: 40px; }
+  .about p {
+    font-weight: 600;
+    font-size: 16px; }
+  .about img {
+    width: 100vw; }
+
+.books {
+  padding: 1rem;
+  border-radius: 22px;
+  font-family: "Arima", system-ui;
+  display: flex;
+  align-items: center;
+  flex-direction: column; }
+  .books .book-list {
+    display: flex;
+    align-items: space-between;
+    flex-direction: row; }
+    .books .book-list .carousel-item {
+      margin: 3rem;
+      align-items: center; }
+      .books .book-list .carousel-item img, .books .book-list .carousel-item p {
+        align-items: center;
+        padding: 10px; }
+
+.contact {
+  padding: 1rem;
+  font-family: "Arima", system-ui;
+  display: flex;
+  align-items: center;
+  flex-direction: column; }
+  .contact .book-list {
+    display: flex;
+    align-items: space-between;
+    flex-direction: row;
+    flex-wrap: wrap-reverse; }
